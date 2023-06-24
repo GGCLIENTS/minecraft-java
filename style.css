@@ -1,0 +1,154 @@
+.rainbow{
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+}
+body{
+    background-color: rgb(52, 48, 48);
+}
+h1{
+    text-align: center;
+}
+
+
+.Clients a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.Clients img{
+    width: 300px;
+}
+.button{
+    border-radius: 20px;
+}
+.cl2 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.cl2 img{
+    width: 300px;
+}
+.cl3 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.cl3 img{
+    width: 300px;
+}
+.cl4 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.cl4 img{
+    width: 300px;
+}
+.cl5 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.cl5 img{
+    width: 300px;
+}
+.cl6 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.cl6 img{
+    width: 300px;
+}
+.cl7 a{
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    color: blueviolet;
+    margin-right: 100px;
+}
+.cl7 img{
+    width: 300px;
+}
+
+
+
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
