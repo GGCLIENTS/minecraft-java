@@ -1,6 +1,15 @@
 .rainbow{
+    margin-top: 1px;
+    display: flex;
     animation: rainbow 2.5s linear;
     animation-iteration-count: infinite;
+    font-size: 50px;
+    background-color: rgb(44, 39, 39);
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: rgb(52, 48, 48);
@@ -9,112 +18,289 @@ h1{
     text-align: center;
 }
 
-
-.Clients a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
+.Clients{
+    display: flex;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(255,0,255);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto;
+}
+.MeteorClientName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,0,255);
+    position: absolute;
+}
+.MeteorVer{
+    display: flex;
     align-items: center;
     align-content: center;
-    display: flex;
-    color: blueviolet;
-    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255,0,255);
+
 }
 .Clients img{
     width: 300px;
 }
-.button{
-    border-radius: 20px;
+.cl2{
+    display: flex;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(222, 147, 25);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto;
 }
-.cl2 a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
+.WurstName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(222, 147, 25);
+    position: absolute;
+}
+.WurstVer{
+    display: flex;
     align-items: center;
     align-content: center;
-    display: flex;
-    color: blueviolet;
-    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(222, 147, 25)
 }
 .cl2 img{
     width: 300px;
 }
-.cl3 a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-    color: blueviolet;
-    margin-right: 100px;
-}
 .cl3 img{
     width: 300px;
+    border-radius: 25px;
+    height: 300px;
 }
-.cl4 a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
+.cl3{
+    display: flex;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(48, 36, 189);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto;
+}
+.AristoisName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 36, 189);
+    position: absolute;
+}
+.AristoisVer{
+    display: flex;
     align-items: center;
     align-content: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 36, 189);
+}
+.cl4{
     display: flex;
-    color: blueviolet;
-    margin-right: 100px;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(124, 48, 201);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto;
+}
+.RavenName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 48, 201);
+    position: absolute;
+}
+.RavenVer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 48, 201);
 }
 .cl4 img{
     width: 300px;
+
 }
-.cl5 a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+.cl5{
     display: flex;
-    color: blueviolet;
-    margin-right: 100px;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(48, 137, 201);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto; 
 }
 .cl5 img{
     width: 300px;
+    border-radius: 25px;
 }
-.cl6 a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
+.FDPName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 137, 201);
+    position: absolute;
+}
+.FDPVer{
+    display: flex;
     align-items: center;
     align-content: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 137, 201);
+}
+.cl6{
     display: flex;
-    color: blueviolet;
-    margin-right: 100px;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(45, 74, 223);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto;
 }
 .cl6 img{
     width: 300px;
+    border-radius: 25px;
 }
-.cl7 a{
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-    justify-content: center;
+.LBounceName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 74, 223);
+    position: absolute;
+}
+.LBounceVer{
+    display: flex;
     align-items: center;
     align-content: center;
-    display: flex;
-    color: blueviolet;
-    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 74, 223);
 }
 .cl7 img{
     width: 300px;
+    height: 300px;
+}
+.cl7{
+    display: flex;
+    background-color: rgb(29, 31, 31);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 10px rgb(72, 72, 76);
+    width: 1000px;
+    height: 300px;
+    justify-content: flex-start;
+    margin: auto;
+}
+.InertiaName{
+    display: flex;
+    margin: 300px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 72, 76);
+    position: absolute;
+}
+.InertiaVer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 72, 76);
+}
+.disclaimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1px;
+    display: flex;
+    animation: rainbow 2.5s linear;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
 
 @keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
+@keyframes disclaimer{
     100%,0%{
         color: rgb(255,0,0);
     }
